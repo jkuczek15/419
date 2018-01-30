@@ -35,7 +35,7 @@ public class Driver {
 		String output = "/user/jkuczek/lab2/exp2/output/"; 
 
 		// The number of reduce tasks 
-		int reduce_tasks = 4; 
+		//int reduce_tasks = 30; 
 		
 		Configuration conf = new Configuration();
 
@@ -47,7 +47,7 @@ public class Driver {
 
 		// Fix the number of reduce tasks to run
 		// If not provided, the system decides on its own
-		job_one.setNumReduceTasks(reduce_tasks);
+		//job_one.setNumReduceTasks(reduce_tasks);
 
 		
 		// The datatype of the mapper output Key, Value
